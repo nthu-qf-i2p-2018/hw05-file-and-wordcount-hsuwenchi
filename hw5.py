@@ -2,7 +2,7 @@ import csv
 
 
 def main(filename):
-    lines = open("i_have_a_dream.txt").readlines()
+    lines = open(filename).readlines()
     all_words = []
 
     for line in lines:
